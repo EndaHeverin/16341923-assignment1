@@ -1,0 +1,7 @@
+#lang racket
+(define (ins_beg el lst)
+  (cons el lst))
+(ins_beg '(a) '(b c d))
+(ins_beg '(a b)'(b c d))
+ (define (ins_end el lst)
+  (endcons el lst))

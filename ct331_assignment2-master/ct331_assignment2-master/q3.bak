@@ -1,0 +1,9 @@
+#lang racket
+
+(define (make-bin-tree-leaf (E))
+  "Create a leaf."
+  (list E))
+
+(define make-bin-tree-node (E B1 B2)
+  "Create a node with element K, left subtree B1 and right subtree B2."
+  (list E B1 B2))
